@@ -5,10 +5,10 @@ import PageModel from "phaseweb/pagemodel";
 
 $(() => {
     const client = new Client({
-        combineMessages: true,
-        shrinkJoinLeaveMessages: true,
-        useAndDisplayJoinLeaveMessages: false,
-        displayOtherSystemsNames: false,
+        combineMessages: false,
+        shrinkJoinLeaveMessages: false,
+        useAndDisplayJoinLeaveMessages: true,
+        displayOtherSystemsNames: true,
         mergeLiveTypingWithCompleteChatArea: false
     });
 
